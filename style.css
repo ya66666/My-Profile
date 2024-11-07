@@ -1,0 +1,69 @@
+.social-icons {
+    margin-top: 30px;
+}
+
+/* Common styles for icon circles */
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #242526;  /* Dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    margin: 0 10px;  /* Space between icons */
+}
+
+/* Icon styling */
+.icon-circle i {
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Facebook specific styling */
+.facebook {
+    border: 2px solid #00e6e6;  /* Neon cyan border */
+}
+
+.facebook i {
+    color: #00e6e6;  /* Neon cyan color */
+}
+
+.social-icons a:hover .facebook {
+    background-color: #00e6e6;
+    box-shadow: 0 0 15px #00e6e6;  /* Neon glow effect */
+}
+
+.social-icons a:hover .facebook i {
+    color: #242526;
+}
+
+/* Instagram specific styling */
+.instagram {
+    border: 2px solid #ff00ff;  /* Neon pink border */
+}
+
+.instagram i {
+    color: #ff00ff;  /* Neon pink color */
+}
+
+.social-icons a:hover .instagram {
+    background-color: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;  /* Neon glow effect */
+}
+
+.social-icons a:hover .instagram i {
+    color: #242526;
+}
+
+/* Make icons display inline */
+.social-icons a {
+    display: inline-block;
+    text-decoration: none;  
+}
+
+/* Add scale effect on hover */
+.social-icons a:hover .icon-circle {
+    transform: scale(1.1);
+}

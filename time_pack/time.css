@@ -1,0 +1,21 @@
+#current-time {
+    position: fixed;           
+    top: 20px;                
+    right: 20px;              
+    padding: 10px 20px;       
+    font-size: 18px;          
+    font-family: monospace;   
+    border-radius: 8px;       
+    z-index: 9999;           
+    background: rgba(28, 29, 30, 0.85);  
+    color: #00a0a0;          
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);  
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);  
+    border: 1px solid rgba(255, 255, 255, 0.08);  
+}
+
+#current-time:hover {
+    transform: translateY(2px);  
+    box-shadow: 0 4px 12px rgba(0, 160, 160, 0.2);  
+}
